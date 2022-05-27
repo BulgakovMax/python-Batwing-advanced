@@ -23,9 +23,6 @@ class Person(ABC):
 
 
 class Human(Person):
-    def __init__ (self, name, age, money, home):
-       super().__init__(name, age, money, home)
-
     def person_info(self):
         if self.home == True:
             real_estate = "Yes"
