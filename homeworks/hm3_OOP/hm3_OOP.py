@@ -117,6 +117,6 @@ bob.buy_house()
 bob.person_info()
 
 brown = Rieltor("mr Brown", [cottage, villa, mansion], 10)
-brown.info_about_houses()
+brown.info_about_houses
 brown.get_discount()
 brown.cheat()
