@@ -28,8 +28,7 @@ class Human(Person):
             real_estate = "Yes"
         else:
             real_estate = "No"
-        print(
-            f"Person Info:\n Name: {self.name} \n Age: {self.age}\n \
+        print(f"Person Info:\n Name: {self.name} \n Age: {self.age}\n \
             Account balance: {self.money}$\n \
             Real estate: {real_estate}\n")
 
@@ -39,8 +38,7 @@ class Human(Person):
     def buy_house(self):
         price = 13000
         if self.money <= price:
-            print(
-                f"Not enough money to buy a house. You have \
+            print(f"Not enough money to buy a house. You have \
                 {self.money}$\n You need to earn \
                 {price - self.money}$ \n")
             print("Do you want work?\n Input: 'yes' or 'no'")
