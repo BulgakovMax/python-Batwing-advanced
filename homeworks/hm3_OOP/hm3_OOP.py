@@ -3,7 +3,7 @@ import random
 
 
 class Person(ABC):
-    def __init__ (self, name, age, money, home):
+    def __init__(self, name, age, money, home):
         self.name = name
         self.age = age
         self.money = money
@@ -28,7 +28,10 @@ class Human(Person):
             real_estate = "Yes"
         else:
             real_estate = "No"
-        print(f"Person Info:\n Name: {self.name} \n Age: {self.age}\n Account balance: {self.money}$\n Real estate: {real_estate}\n")
+        print(
+            f"Person Info:\n Name: {self.name} \n Age: {self.age}\n \
+            Account balance: {self.money}$\n \
+            Real estate: {real_estate}\n")
 
     def make_money(self):
         self.money += 1000
@@ -36,14 +39,17 @@ class Human(Person):
     def buy_house(self):
         price = 13000
         if self.money <= price:
-            print(f"Not enough money to buy a house. You have {self.money}$\n You need to earn {price-self.money}$ \n")
+            print(
+                f"Not enough money to buy a house. You have \
+                {self.money}$\n You need to earn \
+                {price - self.money}$ \n")
             print("Do you want work?\n Input: 'yes' or 'no'")
             work = str(input())
             if work == "Yes":
                 self.make_money()
                 self.buy_house()
             else:
-                pass             
+                pass
         else:
             self.home = True
             print("Congratulations you buy a house!\n")
@@ -55,15 +61,14 @@ class House:
         self.cost = cost
 
     def house_info(self):
-        print(f"House info:\n Area of house: {self.area}sq.m\n House cost: {self.cost}$\n")
+        print(f"House info:\n Area of house: {self.area}sq.m \
+        \n House cost: {self.cost}$\n")
 
 
 class RieltorMeta(type):
-
     _instances = {}
 
     def __call__(cls, *args, **kwargs):
-
         if cls not in cls._instances:
             instance = super().__call__(*args, **kwargs)
             cls._instances[cls] = instance
@@ -78,18 +83,18 @@ class Rieltor(metaclass=RieltorMeta):
 
     def info_about_houses(self):
         for i in range(len(self.houses)):
-            print(f"House# {i+1}")
-            print(f" {self.houses[i].house_info()} \n")           
+            print(f"House# {i + 1}")
+            print(f" {self.houses[i].house_info()} \n")
 
     def get_discount(self):
         print(f"I'll give you a {self.discount}% discount! \n")
 
     def cheat(self):
-         a = random.randint(0,9)
-         if a == 1:
-             print(f"CHEATING SUCCSESSFUL")
-         else:
-             print("'WASTED' \nI'm not guilty")    
+        a = random.randint(0, 9)
+        if a == 1:
+            print(f"CHEATING SUCCSESSFUL")
+        else:
+            print("'WASTED' \nI'm not guilty")
 
 
 cottage = House(50, 13000)
