@@ -1,0 +1,74 @@
+1. Move dump school66 to your local mysql database school66
+
+sudo mysql -u root -p hm_school66 < school66.sql
+sudo mysql -u root -p
+USE school66;
+
+mysql> SHOW TABLES;
++--------------------+
+| Tables_in_school66 |
++--------------------+
+| lessons            |
+| rooms              |
+| rooms_lessons      |
+| students           |
+| students_lessons   |
+| teachers           |
+
+
+2. Create table level (В якому класі студент 10, 11) and make relation with students.
+
+mysql> CREATE TABLE level (id INT PRIMARY KEY AUTO_INCREMENT, students_level INT NOT NULL);
+mysql> INSERT INTO level (students_level) VALUES (10), (11);
+mysql> SELECT * FROM level;
++----+----------------+
+| id | students_level |
++----+----------------+
+|  1 |             10 |
+|  2 |             11 |
+
+
+mysql> CREATE TABLE students_level (id INT PRIMARY KEY AUTO_INCREMENT, id_student INT NOT NULL, id_level INT NOT NULL);
+mysql> INSERT INTO students_level (id_student, id_level) values (1,1), (2,1), (3,2), (4,2);
+mysql> SELECT * FROM students_level;
++----+------------+----------+
+| id | id_student | id_level |
++----+------------+----------+
+|  1 |          1 |        1 |
+|  2 |          2 |        1 |
+|  3 |          3 |        2 |
+|  4 |          4 |        2 |
++----+------------+----------+
+
+
+mysql> SELECT s.first_name, s.last_name, l.students_level FROM students_level sl INNER JOIN students s ON sl.id_student=s.id INNER JOIN level l ON sl.id_level=l.id;
++------------+-----------+----------------+
+| first_name | last_name | students_level |
++------------+-----------+----------------+
+| Ivan       | Pidhaynuy |             10 |
+| Petro      | Pravdoryb |             10 |
+| Yuriy      | Skobylko  |             11 |
+| Liubomyr   | Luzhnyi   |             11 |
++------------+-----------+----------------+
+
+3. Make query which select all students with teacher, levels and lessons
+SELECT s.first_name, s.last_name, t.name AS teacher_name, lv.students_level, l.name AS lessons_name FROM students s INNER JOIN students_lessons sl ON sl.student_id=s.id INNER JOIN lessons l ON sl.lesson_id = l.id INNER JOIN teachers t ON t.lesson_id=l.id INNER JOIN students_level slv ON slv.id_student=s.id INNER JOIN level lv ON slv.id_level=lv.id;
+
++------------+-----------+----------------------+----------------+--------------+
+| first_name | last_name | teacher_name         | students_level | lessons_name |
++------------+-----------+----------------------+----------------+--------------+
+| Yuriy      | Skobylko  | Margaryta Ivanivna   |             11 | Math         |
+| Petro      | Pravdoryb | Margaryta Ivanivna   |             10 | Math         |
+| Ivan       | Pidhaynuy | Yulia Liubomyrivna   |             10 | IT           |
+| Liubomyr   | Luzhnyi   | Yulia Liubomyrivna   |             11 | IT           |
+| Petro      | Pravdoryb | Roskolana Stepanivna |             10 | Biology      |
+| Yuriy      | Skobylko  | Roskolana Stepanivna |             11 | Biology      |
+| Liubomyr   | Luzhnyi   | Roskolana Stepanivna |             11 | Biology      |
+| Petro      | Pravdoryb | Kateryna Yuriivna    |             10 | Biology      |
+| Yuriy      | Skobylko  | Kateryna Yuriivna    |             11 | Biology      |
+| Liubomyr   | Luzhnyi   | Kateryna Yuriivna    |             11 | Biology      |
++------------+-----------+----------------------+----------------+--------------+
+
+
+
+
