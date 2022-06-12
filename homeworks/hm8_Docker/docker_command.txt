@@ -1,0 +1,44 @@
+1. docker build . -t docker_flask
+
+2. docker images
+REPOSITORY     TAG       IMAGE ID       CREATED         SIZE
+docker_flask   latest    3debb50a9a6f   3 minutes ago   458MB
+ubuntu         latest    27941809078c   5 days ago      77.8MB
+ubuntu         20.04     20fffa419e3a   5 days ago      72.8MB
+hello-world    latest    feb5d9fea6a5   8 months ago    13.3kB
+max@max-MS-7519:~/CURSOR/python-Batwing-advanced/homeworks/hm8_Docker$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+max@max-MS-7519:~/CURSOR/python-Batwing-advanced/homeworks/hm8_Docker$ docker run -d 3d
+f7fd14d5f2e28a4db0a10c1f2043fabb26b1d75af92b6df2246f8d64d0d37919
+max@max-MS-7519:~/CURSOR/python-Batwing-advanced/homeworks/hm8_Docker$ docker ps
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS     NAMES
+f7fd14d5f2e2   3d        "/bin/sh -c 'FLASK_A…"   6 seconds ago   Up 3 seconds             elegant_greider
+
+3. docker kill f7
+
+4. docker run (with -d, -it, or without) {id}/{name},
+5. docker stop {id}/{name},
+6. docker attach {id}/{name},
+7. docker inspect {id}/{name},
+8. docker logs {id}/{name}
+
+#2*.
+
+1. docker run -it --name my_story ubuntu
+2. echo "Your story" > story.txt
+3. apt-get update
+4. apt-get install cowsay -y
+5. cat story.txt|./usr/games/cowsay
+    ____________
+< Your story >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+6. docker run -it --name my_story_2 ubuntu # open second command line
+7. ls # in second command line
+
