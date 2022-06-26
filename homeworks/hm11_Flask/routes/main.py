@@ -69,7 +69,8 @@ def search():
     if search:
         search_users = []
         for user in users:
-            if search == user["email"] or search == user["first_name"] or search == user["last_name"] or search  == user["work_area"]:
+            if search == user["email"] or search == user["first_name"] or search == user["last_name"] or search == \
+                    user["work_area"]:
                 search_users.append(user)
         if len(search_users) > 0:
             return render_template("search.html", users=search_users, search=search)
