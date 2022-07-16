@@ -12,7 +12,7 @@ else:
     print(f"1. Phone number is: {myRegex}")
 
 # 2. Write a validation for email following all the rules.
-email_pattern = r"([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@[A-Za-z0-9-]+(\.[A-Z|a-z]{2,})+"
+email_pattern = r"([\w+[._-])*[\w]+@[\w+[._-]+(\.[A-Z|a-z]{2,})+"
 email_text = input("\n2. Search for an email in text. \n Input your text: ")
 
 regex2 = re.fullmatch(pattern=email_pattern, string=email_text)
