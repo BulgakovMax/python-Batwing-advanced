@@ -4,8 +4,8 @@ from flask import Blueprint, Response, request, jsonify
 from marshmallow import ValidationError
 
 from database import db
-from models.user import Games
-from serializers.user import GamesSchema
+from models.games import Games
+from serializers.game import GamesSchema
 
 game_router = Blueprint('game', __name__, url_prefix='/game')
 
