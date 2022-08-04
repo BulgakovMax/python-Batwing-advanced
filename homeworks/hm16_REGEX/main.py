@@ -1,5 +1,6 @@
 import re
 
+
 # 1. Write a Python program which search a phone numbers.
 phone_pattern = r"\d{3}[-]\d{2}[-]\d{2}"
 phone_text = input("1. Search for a phone number in text. \n Input your text: ")
@@ -24,26 +25,29 @@ else:
 #  3. Write a Python program to remove redundant zeros from an IP address.
 ip_text_with_zero = input("\n3. Input your ip: ")
 
-ip_pattern = r"([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])[.]([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])[.]" \
-             r"([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])[.]([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])"
+regex3_1 = '''^(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
+    25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
+    25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
+    25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)'''
 
-regex3 = re.findall(pattern=ip_pattern, string=ip_text_with_zero)
-if not regex3:
-    print("4. IP number not found")
+if re.search(regex3_1, ip_text_with_zero):
+    pattern = r'\.0{1,2}'
+
+    regex3 = re.sub(pattern=pattern, repl=".", string=ip_text_with_zero)
+    print(f"\n 3. {regex3}")
+
 else:
-    myRegex = ', '.join('.'.join(tup) for tup in regex3)
-    regex_ip = re.sub(r'\b0+(\d)', r'\1', myRegex)
-    print(f"\n3. {regex_ip}")
-
+    print(f"{regex3_1} is an invalid IP address.")
 
 # 4. Write a Python program that check if IP address is valid.
-ip_pattern = r"([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])[.]([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])[.]" \
-             r"([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])[.]([01]?[0-9][0-9]?|2[0-4][0-9]|25[0-5])"
+regex4 = '''^(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
+    25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
+    25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
+    25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)'''
+
 ip_text = input("\n4. Input your IP: ")
 
-regex4 = re.findall(pattern=ip_pattern, string=ip_text)
-if not regex4:
-    print("4. IP number not found")
+if re.search(regex4, ip_text):
+    print(f"{ip_text} is a valid IP address.")
 else:
-    myRegex = ', '.join('.'.join(tup) for tup in regex4)
-    print(f"4. IP number is: {myRegex}")
+    print(f"{ip_text} is an invalid IP address.")
