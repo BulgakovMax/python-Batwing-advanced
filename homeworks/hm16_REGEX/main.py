@@ -1,6 +1,5 @@
 import re
 
-
 # 1. Write a Python program which search a phone numbers.
 phone_pattern = r"\d{3}[-]\d{2}[-]\d{2}"
 phone_text = input("1. Search for a phone number in text. \n Input your text: ")
@@ -25,19 +24,18 @@ else:
 #  3. Write a Python program to remove redundant zeros from an IP address.
 ip_text_with_zero = input("\n3. Input your ip: ")
 
-regex3_1 = '''^(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
+regex_pattern = '''^(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
     25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
     25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
     25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)'''
 
-if re.search(regex3_1, ip_text_with_zero):
-    pattern = r'\.0{1,2}'
-
-    regex3 = re.sub(pattern=pattern, repl=".", string=ip_text_with_zero)
-    print(f"\n 3. {regex3}")
-
+if re.search(regex_pattern, ip_text_with_zero):
+    regex3 = re.findall(pattern=regex_pattern, string=ip_text_with_zero)
+    regex3_1 = ', '.join('.'.join(tup) for tup in regex3)
+    regex3_2 = re.sub(r'\b0+(\d)', r'\1', regex3_1)
+    print(f"\n ip: {regex3_2}")
 else:
-    print(f"{regex3_1} is an invalid IP address.")
+    print(f"{ip_text_with_zero} is an invalid IP address.")
 
 # 4. Write a Python program that check if IP address is valid.
 regex4 = '''^(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.( 
