@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <h1 class="text-center">{{ product.title }}</h1>
+        <h3>Description: {{ product.description }}</h3>
+        <hr>
+        <h3>Categories: </h3>
+        <ul>
+            {% for category in product.categories.all %}
+                        <li> <a href="/products/category/{{category.title}}"> {{  category }} </a></li>
+            {% endfor %}
+        </ul>
+        <p>{{ product.category.title }}</p>
+        <a href="#">{{ product.user.first_name }} {{ product.user.last_name }}</a>
+        <a>User:  {{ product.approved_by.username }}</a>
+    </div>
+</div>
+{% endblock %}
+
