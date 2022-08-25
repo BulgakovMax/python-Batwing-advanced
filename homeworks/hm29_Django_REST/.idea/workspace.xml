@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eda7fd7-4ac6-482c-a47c-446d9b133dbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hm22_Flask/.idea/hm22_Flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw27_Django_Forms/.idea/hw27_Django_Forms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo11" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/auth_user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/auth_user.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_admin_log.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_admin_log.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_session.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_session.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/main_menuitem.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/main_menuitem.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product_categories.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product_categories.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/edit_product.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DrSgsHtLwWz0ecc4C2IqQa0Obh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/max/CURSOR/python-Batwing-advanced/homeworks/hm29_Django_REST"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_rest" />
+      <recent name="$PROJECT_DIR$/test_rest/test_rest" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eda7fd7-4ac6-482c-a47c-446d9b133dbb" name="Changes" comment="" />
+      <created>1661455824168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661455824168</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
