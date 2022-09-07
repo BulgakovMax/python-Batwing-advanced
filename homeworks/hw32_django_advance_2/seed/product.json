@@ -1,0 +1,98 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Python",
+        "user": 1,
+        "description": "TEST TEXT",
+        "price": 150,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Java",
+        "user": 1,
+        "description": "TEST  TEST TEST",
+        "price": 130,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "C++",
+        "user": 1,
+        "description": "TEXT TEST TEXT EDIT",
+        "price": 190,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "Go",
+        "user": 1,
+        "description": "Super go Go course...",
+        "price": 165,
+        "approved_by": 1,
+        "approved": true,
+        "display_on_main_page": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "title": "Basic",
+        "slug": "basic",
+        "user": 1,
+        "parent_id": null,
+        "products": [
+            1,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "title": "Advance",
+        "slug": "advance",
+        "user": 1,
+        "parent_id": null,
+        "products": [
+            1,
+            3
+        ]
+    }
+},
+{
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "title": "FREE",
+        "slug": "free",
+        "user": 1,
+        "parent_id": null,
+        "products": [
+            1,
+            2,
+            3
+        ]
+    }
+}
+]
