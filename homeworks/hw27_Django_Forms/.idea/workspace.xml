@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42bbd1ff-2fcc-439a-a3f5-5a60d92d47fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/.idea/hm26_Django_ORM_practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw32_django_advance_2/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo11" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo12_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo12_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo13_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo13_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo14_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo14_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo15_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo15_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo16_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo16_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo17_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo17_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo18_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo18_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo19_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo19_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo20_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo20_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo21_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo21_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo22_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo22_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo23_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo23_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo24_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo24_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo25_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo25_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo26_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo26_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo27_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo28_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo28_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo29_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo29_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo30_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo30_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo31_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo31_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo32_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo32_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo33_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo33_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo34_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo34_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo35_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo35_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo36_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo37_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo37_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo38_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo38_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo39_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo39_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo40_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo40_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo41_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo41_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo42_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/#innodb_redo/#ib_redo42_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/auth_user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/auth_user.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_admin_log.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_admin_log.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_session.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/django_session.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/main_menuitem.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/main_menuitem.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product_categories.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/django/products_product_categories.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/docker/mysql/data/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hm25_Django_ORM/templates/products/edit_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo11" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo12_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo12_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo13_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo13_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo14_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo14_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo15_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo15_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo16_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo16_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo17_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo17_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo18_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo18_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo19_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo19_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo20_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo20_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo21_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo21_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo22_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo22_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo23_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo23_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo24_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo24_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo25_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo25_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo26_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo26_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo27_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo27_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo28_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo28_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo29_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo29_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo30_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo30_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo31_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo31_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo32_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo32_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo33_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo33_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo34_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo34_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo35_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo35_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo36_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo37_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo37_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo38_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo38_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo39_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo39_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo40_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo40_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo41_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo41_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo42_tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/#innodb_redo/#ib_redo42_tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/django/products_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/django/products_product.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../hm26_Django_ORM_practice/docker/mysql/data/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hm29_Django_REST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hm29_Django_REST/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/main/templatetags/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/main/templatetags/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/main/templatetags/menu_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/main/templatetags/menu_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/seed/main.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/seed/main.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/templates/menu_item_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/templates/menu_item_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/category/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/category/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw32_django_advance_2/templates/products/update.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/products/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/base.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/products/categories.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DrQHU5eCpjoaXlPJvwYciOOkJL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/max/CURSOR/python-Batwing-advanced/homeworks/hw27_Django_Forms"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/products" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42bbd1ff-2fcc-439a-a3f5-5a60d92d47fb" name="Changes" comment="" />
+      <created>1661454635711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661454635711</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

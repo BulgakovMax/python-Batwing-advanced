@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <h1>All categories: </h1>
+            <div class="cards-list">
+                {% for category in categories %}
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <a class="btn btn-primary" href="/products/category/{{category.title}}"> {{ category.title }} </a>
+                          <hr>
+                          <h5 class="card-title">Products on this category: </h5>
+                            {% for product in category.products.all %}
+                                <li>
+                                    <a href="{% url 'product_details' id=product.id %}"
+                                       class="card-link">{{ product.title }}</a>
+                                </li>
+                            {% endfor %}
+                      </div>
+                        <hr>
+                            <a href="{% url 'update_category' id=category.id %}" type="button" class="btn btn-primary">Edit Category</a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
